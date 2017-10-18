@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @pic.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @pic.body %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @pic.image %>
+</p>
+
+<p>
+  <strong>Secondary image:</strong>
+  <%= @pic.secondary_image %>
+</p>
+
+<p>
+  <strong>Third image:</strong>
+  <%= @pic.third_image %>
+</p>
+
+<%= link_to 'Edit', edit_pic_path(@pic) %> |
+<%= link_to 'Back', pics_path %>
